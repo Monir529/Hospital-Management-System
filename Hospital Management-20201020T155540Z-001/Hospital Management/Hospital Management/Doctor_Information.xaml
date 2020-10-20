@@ -1,0 +1,30 @@
+﻿<Window x:Class="Hospital_Management.Doctor_Information"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hospital_Management"
+        mc:Ignorable="d"
+        Title="Doctor_Information" Height="550" Width="800">
+    <Grid Background="#FF0A7EA0" Margin="0,0,-70,-63">
+        <Label Content="Id" HorizontalAlignment="Left" Margin="36,134,0,0" VerticalAlignment="Top" Width="94" Height="38" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="36,196,0,0" VerticalAlignment="Top" Width="94" Height="38" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Age" HorizontalAlignment="Left" Margin="36,259,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,1.558" Height="38" Width="94" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="36,324,0,0" VerticalAlignment="Top" Width="94" Height="38" FontWeight="Bold" FontSize="20"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="38" Margin="179,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="38" Margin="179,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="38" Margin="179,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="38" Margin="179,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295"/>
+        <Button Content="Register" HorizontalAlignment="Left" Margin="582,132,0,0" VerticalAlignment="Top" Width="97" Height="40" RenderTransformOrigin="0.257,0.5" Click="Button_Click" FontSize="20" FontWeight="Bold"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="582,194,0,0" VerticalAlignment="Top" Width="97" RenderTransformOrigin="0.46,1.375" Height="40" FontSize="20" FontWeight="Bold" Click="Button_Click_2"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="582,257,0,0" VerticalAlignment="Top" Width="97" Height="40" FontSize="20" FontWeight="Bold" Click="Button_Click_3"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="582,385,0,0" VerticalAlignment="Top" Width="97" RenderTransformOrigin="0.5,1.85" Height="40" Click="Button_Click_1" FontWeight="Bold" FontSize="20"/>
+        <Button Content="View" HorizontalAlignment="Left" Margin="582,322,0,0" VerticalAlignment="Top" Width="97" RenderTransformOrigin="0.62,1.95" Height="40" Click="Button_Click_4" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="36,387,0,0" VerticalAlignment="Top" Height="38" Width="94" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="36,447,0,0" VerticalAlignment="Top" Width="94" Height="37" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="38" Margin="179,387,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="37" Margin="179,447,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295"/>
+        <Label Content="Doctor__Information" HorizontalAlignment="Left" Margin="256,26,0,0" VerticalAlignment="Top" Height="62" Width="380" FontSize="36" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
